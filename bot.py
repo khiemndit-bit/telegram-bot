@@ -1,7 +1,7 @@
 from telegram import Update, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters, ConversationHandler
 import os
-TOKEN = os.environ.get("9109730930:AAF3sLwMrurUH1NEPJUeFapgdZ9Dr8s2BhY")
+TOKEN = os.environ.get("TOKEN")
 
 
 CHON_CAU_HOI, CHON_LUA_CHON = range(2)
